@@ -1,0 +1,30 @@
+{
+  "name": "nuxt-handson",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "flaireclair <h.kmntag6.gaburiasu@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.10.1",
+    "@nuxtjs/bulma": "^1.2.7",
+    "nuxt": "^2.0.0",
+    "postcss-nested": "^4.2.1",
+    "postcss-responsive-type": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
